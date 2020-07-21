@@ -1,5 +1,5 @@
 function getData(callback){
-    fetch("/.netlify/functions/getdata")
+    fetch("/.netlify/functions/getdata.js")
     .then(response=>{
         return response.json();
     })
