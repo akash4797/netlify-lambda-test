@@ -1,5 +1,5 @@
 function getData(callback){
-    fetch("/.netlify/functions/getdata.js")
+    fetch("http://192.168.31.198:9000/getdata")
     .then(response=>{
         return response.json();
     })
