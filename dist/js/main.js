@@ -1,5 +1,5 @@
 function getData(callback){
-    fetch("http://192.168.31.198:9000/getdata")
+    fetch("/.neltify/functions/getdata")
     .then(response=>{
         return response.json();
     })
